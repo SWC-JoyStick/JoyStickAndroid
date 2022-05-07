@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navCall"
+            android:icon="@drawable/coffee"
+            android:title="服务" />
+        <item
+            android:id="@+id/navFriends"
+            android:icon="@drawable/like"
+            android:title="喜爱" />
+        <item
+            android:id="@+id/navLocation"
+            android:icon="@drawable/star"
+            android:title="收藏" />
+        <item
+            android:id="@+id/navMail"
+            android:icon="@drawable/joypad"
+            android:title="按键布局" />
+        <item
+            android:id="@+id/navTask"
+            android:icon="@drawable/setting"
+            android:title="设置" />
+        <item
+            android:id="@+id/navleave"
+            android:icon="@drawable/leave"
+            android:title="退出" />
+    </group>
+</menu>

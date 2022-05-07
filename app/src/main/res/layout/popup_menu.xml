@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="2dp">
+
+    <TextView
+        android:id="@+id/move"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="移动组件"
+        android:textColor="#9E9D9D"
+        android:background="@drawable/shape_corner"/>
+
+
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textColor="#9E9D9D"
+        android:text="显示按键"
+        android:background="@drawable/shape_corner"/>
+
+
+
+    <TextView
+        android:id="@+id/hide"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="隐藏控件"
+        android:textColor="#9E9D9D"
+        android:background="@drawable/shape_corner"/>
+
+    <EditText
+        android:id="@+id/inputIP"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:hint="请输入IP"
+        android:textColor="#9E9D9D"
+        android:background="@drawable/shape_corner"/>
+    <TextView
+        android:id="@+id/commit"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="#9E9D9D"
+        android:background="@drawable/shape_corner"/>
+
+</LinearLayout>
